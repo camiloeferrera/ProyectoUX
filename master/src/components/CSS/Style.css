@@ -72,10 +72,6 @@ body{
     color: #eee;
 }
 
-.reacciones{
-    margin: 3px;
-}
-
 .contenerPublicacion{
     border-radius: 10px;
 }
@@ -85,3 +81,7 @@ body{
     font-style: oblique;
 }
 
+
+.reacciones{
+    margin: 3px;
+}
