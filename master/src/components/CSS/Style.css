@@ -22,6 +22,20 @@ body{
     background: linear-gradient(saddlebrown,rgb(100, 46, 8));
 }
 
+.btn_r{
+    background: saddlebrown;
+    color: #eee;
+    margin-top: 6px;
+}
+
+.btn_r:first-child:hover{
+    background: green;
+}
+
+.btn_r:last-child:hover{
+    background: rgb(194, 30, 30);
+}
+
 .lbl{
     color: #eee;
 }
@@ -30,7 +44,6 @@ body{
     color: rgb(100, 46, 8);
 }
 
-/*etiqueta*/
 .container_p{
     background: linear-gradient(saddlebrown,rgb(68, 32, 6));
 }
@@ -52,19 +65,6 @@ body{
     background-color: saddlebrown;
 }
 
-.btn_r{
-    background: saddlebrown;
-    color: #eee;
-    margin-top: 6px;
-}
-
-.btn_r:first-child:hover{
-    background: green;
-}
-
-.btn_r:last-child:hover{
-    background: rgb(194, 30, 30);
-}
 
 .fas{
     padding: 4px;

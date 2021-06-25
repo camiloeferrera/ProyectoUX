@@ -46,11 +46,10 @@ function Registro(){
                     window.history.back();
                 }
             }else{
-                window.alert("Llene todos los datos");
+                window.alert("Tiene campos vacíos.");
             }
         }else{
-            window.alert("Usuario ya existente");
-            console.log("Usuario ya registrado!!!");
+            window.alert("Este usuario ya existe!");
         }
     }
 
