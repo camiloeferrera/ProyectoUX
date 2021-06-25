@@ -1,0 +1,87 @@
+body{
+    background: linear-gradient(rgb(6, 73, 6),rgb(6, 73, 6));
+    background-image: url(../images/pizarra.jpg);
+}
+
+.barra{
+    background: linear-gradient(saddlebrown,rgb(100, 46, 8));
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+@media screen and (min-width: 800px) {
+    .fa-book {
+        font-size: 4em;
+    }
+} 
+
+.navbar{
+    position: fixed;
+    background: linear-gradient(saddlebrown,rgb(100, 46, 8));
+}
+
+.lbl{
+    color: #eee;
+}
+
+.principal_f{
+    color: rgb(100, 46, 8);
+}
+
+/*etiqueta*/
+.container_p{
+    background: linear-gradient(saddlebrown,rgb(68, 32, 6));
+}
+
+.fa-plus-circle{
+    margin-right: 3px;
+}
+
+.tag_1, .btn_r{
+    /* background-color: rgb(77, 111, 150); */
+    padding: 5px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 12px;
+    margin-left: 6px;
+}
+
+.tag_1:hover{
+    background-color: saddlebrown;
+}
+
+.btn_r{
+    background: saddlebrown;
+    color: #eee;
+    margin-top: 6px;
+}
+
+.btn_r:first-child:hover{
+    background: green;
+}
+
+.btn_r:last-child:hover{
+    background: rgb(194, 30, 30);
+}
+
+.fas{
+    padding: 4px;
+    margin: 4px;
+    color: #eee;
+}
+
+.reacciones{
+    margin: 3px;
+}
+
+.contenerPublicacion{
+    border-radius: 10px;
+}
+
+.title{
+    color: #eee;
+    font-style: oblique;
+}
+
